@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portal do municipio do Cuimba</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Cuimba</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Sobre Cuimba</a></li>
+          <li><a href="#services">Futebola</a></li>
+          <li><a href="#portfolio">Galeria</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#pricing">Jogador</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#about">Cuimba</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Seja bem vindo ao portal do municipio do Cuimba</h1>
+            <p>Sou do Cuimba e conheço o Cuimba</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Cuimba</a>
+              <a href="https://youtu.be/yd3yKS92yjo?si=Jjzou-wQz4SuR2py" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Assistindo Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/cuimba.jpeg" width="800" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Acerca do Cuimba</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <h2 class="text-center">CUIMBA</h2>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+               Município de Kuimba é uma das divisões administrativas da província do Zaire, em Angola. Está situado no noroeste do país e é conhecido por seu ambiente predominantemente rural e sua rica diversidade cultural.
+            </p>
+            <p>
+              <strong>Cuimba</strong> é uma cidade e município da província do Zaire, em Angola.
+              O município de Cuimba está administrativamente dividido em <strong>quatro (4) comunas</strong>, sendo a sede correspondendo a própria cidade de Cuimba, existindo também as comunas de <strong>Buela, Serra da Canda e Luvaca.</strong>
+            </p>
+            <p>Aqui estão alguns aspectos importantes sobre Kuimba:</p>
+            <ol style="text-align: justify; ">
+              <li><strong>Geografia e População</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>Kuimba é uma região que possui uma população majoritariamente rural, com comunidades que vivem principalmente da agricultura e da criação de gado. A região é caracterizada por um clima tropical, com estações de chuva e seca bem definidas.
+              </span></p>
+              <li><strong>Localização e Geografia</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>
+                Kuimba está localizado na província do Zaire, que é uma das províncias do norte de Angola. A região é conhecida por seu relevo variado, que inclui áreas de planícies e colinas, bem como uma vegetação rica e uma abundância de recursos naturais. A cidade de Kuimba está situada a uma distância considerável da capital provincial, M'banza-Kongo.
+              </span></p>
+              <li><strong>História e Cultura</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>
+                Kuimba tem uma rica herança cultural que reflete a diversidade étnica da região. O Zaire é historicamente uma área de grande importância cultural, com várias etnias locais, incluindo os povos Kongo e outras comunidades. A cidade e a região têm tradições culturais vibrantes, incluindo festas tradicionais, danças e rituais que fazem parte da vida comunitária.
+              </span></p>
+              <li><strong>Desafios e Perspectivas</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>
+                Kuimba enfrenta desafios típicos das áreas rurais, incluindo a necessidade de melhorias na infraestrutura, acesso a serviços básicos e desenvolvimento econômico. No entanto, a região tem potencial para crescimento, especialmente se houver investimentos em infraestrutura e desenvolvimento sustentável. A promoção do turismo e o desenvolvimento de atividades econômicas locais também são áreas que podem contribuir para o progresso da região.
+              </span></p>
+            </ol>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <ol>
+              <li><strong>Economia</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>
+                A economia de Kuimba é principalmente baseada na agricultura, que é a principal fonte de subsistência para a maioria da população. Os habitantes cultivam produtos como milho, feijão, mandioca e batata-doce. Além da agricultura, há também alguma atividade comercial local e artesanato. O desenvolvimento econômico na região pode ser limitado pela infraestrutura e pela falta de acesso a mercados mais amplos.
+              </span></p>
+              <li><strong>Infraestrutura</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>
+                A infraestrutura em Kuimba pode ser desafiadora, com estradas que podem não estar bem conservadas e acesso limitado a serviços básicos. A província do Zaire enfrenta desafios semelhantes aos de outras regiões rurais de Angola em termos de desenvolvimento de infraestrutura. Melhorias nas estradas e na comunicação são áreas cruciais para promover o crescimento e melhorar a qualidade de vida na região.
+              </span></p>
+              <li><strong>Saúde e Educação</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>               
+                Os serviços de saúde e educação em Kuimba podem ser limitados, refletindo as condições de muitas áreas rurais de Angola. Existem algumas unidades de saúde e escolas, mas a qualidade e a cobertura desses serviços podem ser insuficientes. O governo e várias organizações estão trabalhando para melhorar essas condições, mas ainda há desafios significativos a serem enfrentados.
+              </span></p>
+              <li><strong>Demografia e Sociedade</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>                                               
+                A população de Kuimba é composta por várias etnias, e a convivência entre esses grupos é uma característica importante da região. A vida comunitária é marcada por uma forte tradição cultural e por práticas sociais que refletem a diversidade da população local. A interação social e o apoio comunitário são aspectos centrais da vida em Kuimba.
+              </span></p>
+              <li><strong>Turismo e Meio Ambiente</strong></li><br>
+              <p><i class="bi bi-check2-circle"></i> <span>                                              
+                O potencial turístico de Kuimba está associado à sua beleza natural e às suas tradições culturais. A região possui paisagens naturais atraentes e áreas de interesse ecológico. No entanto, o turismo ainda está em desenvolvimento, e há oportunidades para expandir e promover o ecoturismo e o turismo cultural, com a necessidade de melhorar a infraestrutura e os serviços.
+              </span></p>
+            </ol>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section" style="background: #DDDDDD;">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100" style="text-align: justify;">
+              <h3><strong>EDUCAÇÃO</strong></h3>
+              <p style="color: #111;">
+                Em Kuimba, a educação é fortemente valorizada. Os professores são altamente elogiados por sua dedicação e esforço, contribuindo significativamente para o aprendizado dos alunos, apesar das limitações.
+              </p>
+              <h3><strong>Estrutura Escolar</strong></h3>
+              <p style="color: #111;">
+                Kuimba possui várias escolas primárias e secundárias, que atendem a crianças e adolescentes da região. No entanto, a infraestrutura escolar pode ser limitada, com algumas escolas enfrentando desafios relacionados a recursos e condições físicas. Muitas escolas têm instalações básicas, e a qualidade das infraestruturas pode variar significativamente.
+              </p>
+              <h3><strong>Qualidade da Educação</strong></h3>
+              <p style="color: #111;">
+                A qualidade da educação em Kuimba é destacada pelo comprometimento e dedicação dos professores, que desempenham um papel fundamental no processo de aprendizagem. Apesar das limitações, os educadores em Kuimba são reconhecidos por seu esforço em proporcionar uma educação enriquecedora. A comunidade escolar e os alunos frequentemente demonstram um grande entusiasmo e empenho, criando um ambiente de aprendizado positivo e inspirador.
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+              <h2>Escolas da Sede</h2>
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> <strong>LICEU EDUARDO JOSÉ</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>O Liceu Eduardo José</strong> é uma instituição de ensino secundário situada em Boa Vista, na cidade de Cuimba. É a única escola que oferece o <strong>2º ciclo de ensino na região de Cuimba</strong>. Desde a sua fundação, o liceu tem desempenhado um papel crucial na formação educacional da comunidade, preparando milhares de alunos para carreiras profissionais e acadêmicas. Com um currículo abrangente e um compromisso com a excelência, o Liceu Eduardo José tem contribuído significativamente para o desenvolvimento de quadros qualificados na região.🙏
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> <strong>28 DE AGOSTO</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>A Escola 28 de Agosto</strong>, situada no bairro de Kintadila, em Cuimba, é uma instituição educacional que oferece uma gama completa de níveis de ensino. O complexo educacional inclui tanto o ensino primário quanto o 1º ciclo, proporcionando uma formação abrangente para crianças desde os primeiros anos de escolaridade até a conclusão do ciclo inicial. Com uma infraestrutura projetada para atender às necessidades educativas das crianças da região, a Escola 28 de Agosto desempenha um papel crucial no desenvolvimento educacional da comunidade local.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> <strong>Iº DA TERRA NOVA</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>O 1º Ciclo da Terra Nova</strong> é uma instituição de ensino localizada no bairro de Terra Nova, em Cuimba. Este estabelecimento oferece educação no ciclo inicial, atendendo crianças que estão começando sua jornada escolar. O 1º Ciclo da Terra Nova é responsável por fornecer uma base sólida de conhecimentos e habilidades fundamentais, preparando os alunos para avançarem com sucesso para os níveis seguintes de educação. Com uma estrutura projetada para suportar o aprendizado e o desenvolvimento das crianças, a escola desempenha um papel essencial na formação educacional da comunidade local.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>04</span> <strong>COMPLEXO BOA VISTA</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>O Complexo Boa Vista</strong>, localizado no bairro de Boa Vista, em Cuimba, é uma instituição educacional que oferece uma gama completa de níveis de ensino. O complexo inclui tanto o ensino primário quanto o 1º ciclo, atendendo a alunos desde os primeiros anos de escolaridade até a conclusão do ciclo inicial. Com uma infraestrutura adequada e recursos dedicados ao aprendizado, o Complexo Boa Vista desempenha um papel fundamental na educação da comunidade local, proporcionando uma base sólida de conhecimentos e habilidades essenciais para o desenvolvimento acadêmico das crianças.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>05</span> <strong>COMPLEXO ESCOLAR 03</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>O Complexo Escolar 03</strong>, localizado no bairro de Bulunga, em Cuimba, é uma instituição que oferece uma educação abrangente para os níveis iniciais. O complexo inclui tanto o ensino primário quanto o 1º ciclo, proporcionando uma formação educacional completa desde os primeiros anos de escolaridade até o ciclo inicial. Com uma estrutura adaptada para apoiar o aprendizado e o desenvolvimento dos alunos, o Complexo Escolar 03 desempenha um papel crucial no fornecimento de educação de qualidade à comunidade local, ajudando a preparar as crianças para avanços acadêmicos futuros.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>06</span> <strong>ESCOLA PRIMÁRIA Nº 63 ÁLVARO BUTA</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>A Escola Primária nº 63 Álvaro Buta</strong>, localizada no bairro do Buta, em Cuimba, é uma instituição dedicada à educação básica. Esta escola oferece ensino primário, atendendo crianças desde os primeiros anos de escolaridade e proporcionando uma formação fundamental para o desenvolvimento acadêmico inicial. Com uma infraestrutura adequada e um compromisso com a qualidade educacional, a Escola Primária nº 63 Álvaro Buta desempenha um papel importante na formação das futuras gerações da comunidade local, ajudando a garantir uma base sólida de conhecimentos e habilidades essenciais.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>07</span> <strong>ESCOLA PRIMÁRIA TERRA NOVA</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong>A Escola Primária Terra Nova</strong>, situada no bairro de Terra Nova, em Cuimba, é uma instituição dedicada ao ensino fundamental. Esta escola oferece educação primária, atendendo crianças desde os primeiros anos de escolaridade até o final do ciclo inicial. Com uma infraestrutura adequada e recursos voltados para o desenvolvimento educacional dos alunos, a Escola Primária Terra Nova desempenha um papel essencial na formação acadêmica das crianças da comunidade, fornecendo uma base sólida de conhecimentos e habilidades para o seu crescimento e aprendizado.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>08</span> <strong>ESCOLA PRIMÁRIA Nº 275</strong></h3>
+                <div class="faq-content">
+                  <p>
+                    <strong> A Escola Primária nº 275</strong>, localizada em Mbanza-Cuimba, é uma instituição voltada para a educação básica. Esta escola oferece ensino primário, atendendo crianças desde os primeiros anos de escolaridade e fornecendo uma base essencial de conhecimentos e habilidades. Com uma estrutura projetada para apoiar o aprendizado e o desenvolvimento das crianças, a Escola Primária nº 275 desempenha um papel crucial na formação educacional da comunidade local, contribuindo para o desenvolvimento acadêmico e pessoal dos alunos.
+                  </p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" width="500" alt="" data-aos="zoom-in" data-aos-delay="100" style="margin-top: -1000px;">
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img" style="margin-left: 1000px; margin-top: -1600px;">
+            <img src="assets/img/hero-img.png" class="img-fluid" width="500" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img" style="margin-left: 1000px; margin-top: -1100px;">
+            <img src="assets/img/liceu.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img" style="margin-left: 1000px; margin-top: -700px;">
+            <img src="assets/img/buta.jpg" class="img-fluid" width="250" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img" style="margin-left: 1000px; margin-top: -300px;">
+            <img src="assets/img/terra nova.jpeg" class="img-fluid" width="250" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img" style="margin-left: 700px; margin-top: -400px;">
+            <img src="assets/img/03.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>          
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>TECNOLOGIAS USADAS</h3>
+            <p class="fst-italic">
+              
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Framework</span> <i class="val">55%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>FUTEBOL DO CUIMBA</h2>
+        <p><strong>O futebol</strong> é um esporte extremamente popular em Angola e tem um papel importante em muitas comunidades, incluindo o município de Kuimba. Aqui estão alguns aspectos sobre o futebol em Kuimba:</p> <br><br>
+        <div style="width: 45%; text-align: justify; border: dashed blue 4px; padding: 10px;">
+          <p class="text-center"><strong>Popularidade e Cultura</strong></p><br>
+          O futebol é o esporte mais popular em Kuimba. É praticado por diversas faixas etárias e gera grande entusiasmo entre os moradores. A paixão pelo esporte é visível em partidas e campeonatos locais, que atraem a atenção e o apoio da comunidade.
+
+          <p class="text-center"><strong>Infraestrutura e Equipamentos</strong></p> <br>
+          A infraestrutura para a prática do futebol em Kuimba pode ser limitada. Os campos de futebol são geralmente simples, e a falta de instalações modernas e equipamentos pode impactar a qualidade dos treinos e das competições. No entanto, isso não diminui o entusiasmo e o compromisso dos jogadores e das equipes locais.
+        </div>
+        <div style="width: 45%; float: right; margin-top: -340px; text-align: justify; border: dashed blue 4px; padding: 10px;">
+          <p class="text-center"><strong>Desenvolvimento e Desafios</strong></p><br>
+          Apesar da popularidade, o futebol em Kuimba enfrenta desafios como a falta de investimentos e apoio institucional. Melhorias na infraestrutura e no acesso a recursos são necessárias para o desenvolvimento do esporte na região. Programas de formação e apoio a jovens talentos podem ajudar a melhorar a qualidade do futebol local.
+
+          <p class="text-center"><strong>Impacto Social</strong></p><br>
+          O futebol tem um impacto positivo significativo na comunidade de Kuimba, promovendo a união social e oferecendo oportunidades para que os jovens se envolvam em atividades construtivas. Além disso, o esporte serve como uma forma de entretenimento e orgulho local, contribuindo para o bem-estar geral da população.
+        </div><br><br><br>
+        <div>
+          <p style="text-decoration: underline blue 4px; text-transform: uppercase; font-size: 30pt;"><strong>Competições e Times</strong></p>
+          Existem várias equipes amadoras em Kuimba que competem em ligas e torneios regionais, como: <strong>Elefante</strong>, <strong>Casa Benção</strong>, <strong>Bulunga</strong>, <strong>28 de Agosto</strong>, <strong>Progresso</strong>, <strong>Raíz</strong>, <strong>Esperança</strong>, <strong>Juventude Adelina</strong>, <strong>Entre outas</strong>. Esses times frequentemente participam de campeonatos locais organizados pela administração municipal ou por associações de futebol. As competições são uma oportunidade para os jogadores locais mostrarem seu talento e para a comunidade se envolver.
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <h1 class="text-center">EQUIPAS MAIS FAMOSOS DO CUIMBA</h1>
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link"><strong>ELEFANTE</strong></a></h4>
+              <p><strong>Elefante é um dos maior clube e mais popular, localizado no bairro Kitadila</strong></p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link"><strong>CASA BENÇÃO</strong></a></h4>
+              <p><strong>Casa Benção é um dos maior clube e mais popular também localizado no bairro Tombaco</strong></p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link"><strong>BULUNGA</strong></a></h4>
+              <p><strong>Bulunga também é um dos maior clube e mais popular também localizado no bairro Bulunga</strong></p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link"><strong>28 DE AGOSTO </strong></a></h4>
+              <p><strong>28 de Agosto é um clube que faz parte também dos maior clubes do Cuimba </strong></p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cuimba1.jpeg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Cuimba</h3>
+            <p>
+              A Sala de Juventude de Cuimba é um espaço dedicado ao engajamento e desenvolvimento da juventude na cidade de Cuimba, província do Zaire, Angola. Este local é um ponto de encontro importante para jovens da região, oferecendo uma variedade de atividades e eventos que promovem a cultura, o entretenimento e a socialização.
+            </p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Cuimba</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2><strong>CUIMBA</strong></h2>
+        <p>Conheça o município do Cuimba agora!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Todas</li>
+            <li data-filter=".filter-app">Cuimba</li>
+            <li data-filter=".filter-product">Cuimba City</li>
+            <li data-filter=".filter-branding">Cuimba</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/cuimba.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Retunda</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/cuimba1.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sala da Juventude</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/cuimba2.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Rua Principal</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/sentido.jpg" width="300" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Bulunga</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/jogo.jpeg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Campo Municipal</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/guarito.jpg" width="300" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Elefante</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/soyo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>ISP-SOYO</h4>
+                <p>Soyo</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/galo.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seleção</h4>
+                <p>Cuimba</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/dieu.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Mamale</h4>
+                <p>Cuimbiano</p>
+                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Queremos aproveitar este momento para expressar nossa gratidão e reconhecimento pelo trabalho incrível que todos vocês estão realizando. A dedicação, criatividade e habilidades técnicas que cada um de vocês traz para a equipe são verdadeiramente inspiradoras.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Diwas.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Diwas Kiangebeni</h4>
+                <span>Futuro Engenheiro</span>
+                <p>Um estudante da engenharia informática</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Luzingu.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Afonso Luzingu</h4>
+                <span>Engenheiro Informático</span>
+                <p>Fundador do Aplicativo Angoschool</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Pedro.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Pedro Mbenza</h4>
+                <span>Engenheiro Informático</span>
+                <p>Fundador do aplicatico de consulta de Farmacos</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/Matondo.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Pedro Lundoloka</h4>
+                <span>Futuro Engenheiro</span>
+                <p>Estudante da engenharia informática</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Jogadores</h2>
+        <p>Alguns jogadores das equipas do Cuimba</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Mamale Vs Dedé</h3>
+              <img src="assets/img/moledji.jpg" width="300">
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Cuimba</h3>
+              <img src="assets/img/neymar.jpg" width="300">           
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Mamale Vs Dedé</h3>
+              <img src="assets/img/mamale.jpg" width="300">
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>PARCEIROS</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/team/Kiangebeni.jpg" width="130" height="130" class="testimonial-img" alt="">
+                <h3>Diwas Kiangebeni</h3>
+                <h4>Futuro Engenheiro</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/team/Pedro.jpg" class="testimonial-img" alt="">
+                <h3>Pedro Mbenza</h3>
+                <h4>Engenheiro</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/team/Luzingu.jpg" class="testimonial-img" alt="">
+                <h3>Afonso Luzingu</h3>
+                <h4>Engenheiro</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/team/Matondo.jpg" class="testimonial-img" alt="">
+                <h3>Pedro Lundoloka</h3>
+                <h4>Futuro Engenheiro</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/team/Diwas.jpg" class="testimonial-img" alt="">
+                <h3>Diwantesa Kiangebeni</h3>
+                <h4>Futuro Engenheiro</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <!--<section id="faq-2" class="faq-2 section light-background"-->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contacto</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Endereço</h3>
+                  <p>Angola/Zaire/Soyo</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Contacta nos</h3>
+                  <p>941830507</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>diwantesakiangebeni@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+           <img src="assets/img/jogo.jpeg" width="800">
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> Designed by<strong class="px-1 sitename">Diwas Kiangebeni</strong></p></div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
